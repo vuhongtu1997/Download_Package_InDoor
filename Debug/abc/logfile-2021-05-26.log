@@ -1,0 +1,87 @@
+(1749) 2021.05.26-07:38:07.62 - <info> (mqtt)Message_receive: {"CMD":"HAVE A MESSAGE"}
+(25641) 2021.05.26-07:38:32.18 - <info> (mqtt)192.168.100.1: Connect callback, rc=0
+(25641) 2021.05.26-07:38:32.19 - <info> (mqtt)Message_send: {"CMD":"CONNECTED"}
+(25641) 2021.05.26-07:39:50.72 - <info> (mqtt)Message_receive: {
+"UPDATE":1
+}
+(5397) 2021.05.26-07:40:22.77 - <info> (mqtt)192.168.100.1: Connect callback, rc=0
+(5397) 2021.05.26-07:40:22.78 - <info> (mqtt)Message_send: {"CMD":"CONNECTED"}
+(5397) 2021.05.26-07:40:40.35 - <info> (mqtt)Message_receive: {
+"CMD":"UPDATE"
+}
+(5397) 2021.05.26-07:40:40.36 - <info> (cmd)e8 ff 0 0 0 0 2 0 ff ff 82 1 
+(5396) 2021.05.26-07:40:40.38 - <info> (rsp)91 b5 1 0 ff ff 82 1 
+(5396) 2021.05.26-07:40:40.39 - <info> (rsp)91 9a 11 22 33 44 
+(5396) 2021.05.26-07:40:40.63 - <info> (rsp)91 81 86 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:40.64 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 134, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:40.65 - <info> (rsp)91 81 92 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:40.66 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 146, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:40.78 - <info> (rsp)91 81 82 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:40.79 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 130, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:40.84 - <info> (rsp)91 81 74 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:40.85 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 116, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:40.86 - <info> (rsp)91 81 8c 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:40.87 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 140, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:40.88 - <info> (rsp)91 81 6a 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:40.89 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 106, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:40.90 - <info> (rsp)91 81 72 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:40.91 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 114, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:40.93 - <info> (rsp)91 81 68 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:40.93 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 104, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:40.94 - <info> (rsp)91 81 94 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:40.95 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 148, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:40.99 - <info> (rsp)91 81 90 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:40.00 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 144, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:41.05 - <info> (rsp)91 81 5d 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:41.06 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 93, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:41.08 - <info> (rsp)91 81 6c 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:41.10 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 108, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:41.11 - <info> (rsp)91 81 64 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:41.12 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 100, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:41.17 - <info> (rsp)91 81 5a 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:41.18 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 90, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:41.22 - <info> (rsp)91 81 8a 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:41.23 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 138, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:41.24 - <info> (rsp)91 81 8e 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:41.26 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 142, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:41.54 - <info> (rsp)91 81 84 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:41.55 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 132, "VALUE_ONOFF": 1 } }
+(5397) 2021.05.26-07:40:41.97 - <info> (mqtt)Message_receive: {
+"CMD":"UPDATE"
+}
+(5397) 2021.05.26-07:40:41.97 - <info> (cmd)e8 ff 0 0 0 0 2 0 ff ff 82 1 
+(5396) 2021.05.26-07:40:41.99 - <info> (rsp)91 b5 1 0 ff ff 82 1 
+(5396) 2021.05.26-07:40:42.24 - <info> (rsp)91 81 86 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:42.24 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 134, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:42.28 - <info> (rsp)91 81 68 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:42.29 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 104, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:42.30 - <info> (rsp)91 81 94 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:42.31 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 148, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:42.33 - <info> (rsp)91 81 5d 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:42.34 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 93, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:42.36 - <info> (rsp)91 81 74 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:42.37 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 116, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:42.42 - <info> (rsp)91 81 6a 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:42.42 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 106, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:42.50 - <info> (rsp)91 81 82 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:42.51 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 130, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:42.52 - <info> (rsp)91 81 72 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:42.54 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 114, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:42.54 - <info> (rsp)91 81 90 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:42.55 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 144, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:42.66 - <info> (rsp)91 81 5a 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:42.67 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 90, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:42.67 - <info> (rsp)91 81 8e 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:42.68 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 142, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:42.69 - <info> (rsp)91 81 8c 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:42.70 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 140, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:42.76 - <info> (rsp)91 81 6c 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:42.77 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 108, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:42.92 - <info> (rsp)91 81 84 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:42.93 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 132, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:42.97 - <info> (rsp)91 81 8a 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:42.99 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 138, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:43.10 - <info> (rsp)91 81 64 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:43.11 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 100, "VALUE_ONOFF": 1 } }
+(5396) 2021.05.26-07:40:43.42 - <info> (rsp)91 81 92 0 1 0 82 4 1 
+(5396) 2021.05.26-07:40:43.42 - <info> (mqtt)Message_send:{ "CMD": "ONOFF", "DATA": { "DEVICE_UNICAST_ID": 146, "VALUE_ONOFF": 1 } }
